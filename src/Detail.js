@@ -71,7 +71,7 @@ function Detail(props) {
         <h3>평균 평점</h3>
         <p>{all_avg}</p>
         <button onClick={() => {
-          navigate("/");
+          setAvg(Number(0).toFixed(1))
         }}>reset</button>
       </Result>
       </>
